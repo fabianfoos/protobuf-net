@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>protobuf-net-sharpcaster</id>
+        <version>2.0.0.668</version>
+        <authors>Marc Gravell</authors>
+        <owners>Tapanila</owners>
+        <licenseUrl>http://protobuf-net.googlecode.com/svn/trunk/Licence.txt</licenseUrl>
+		<projectUrl>https://github.com/tapanila/protobuf-net</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Protocol Buffers is the name of the binary serialization format used by Google for much of their data communications. It is designed to be: small in size - efficient data storage (far smaller than xml) cheap to process - both at the client and server platform independent - portable between different programming architectures extensible - to add new data to old messages. protobuf-net is a .NET implementation of this, allowing you to serialize your .NET objects efficiently and easily. It is compatible with PCL 151</description>
+        <releaseNotes></releaseNotes>
+    </metadata>
+    <files>
+		<file src="bin\release\protobuf-net.dll" target="lib\portable-win81+wpa81" />
+		<file src="bin\release\Themes\Generic.xbf" target="lib\portable-win81+wpa81\SharpCaster\Themes\Generic.xbf" />
+    </files>
+</package>
